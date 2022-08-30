@@ -1,5 +1,5 @@
 {
-  "name": "parking",
+  "name": "@parkinglot/server",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -19,7 +19,7 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "deploy" : "npm install  && npm run build && npm run start:prod"
+    "deploy": "npm install && npm run build && npm run start:prod"
   },
   "dependencies": {
     "@liaoliaots/nestjs-redis": "^8.2.0",

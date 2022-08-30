@@ -1,0 +1,17 @@
+{
+  "name": "parkinglot",
+  "private": true,
+  "dependencies": {
+    "lerna": "^5.4.3"
+  },
+  "scripts": {
+    "lerna": "lerna",
+    "start:server": "lerna exec npm start --scope=@parkinglot/server",
+    "start:server:dev": "lerna exec npm run start:dev --scope=@parkinglot/server",
+    "build:server": "lerna exec npm run build --scope=@parkinglot/server",
+    "start:server:prod": "lerna exec npm run start:prod --scope=@parkinglot/server",
+    "start:server:prod:pm2": "lerna exec npm run start:prod:pm2 --scope=@parkinglot/server",
+    "deploy:server": "lerna exec npm run deploy --scope=@parkinglot/server",
+    "deploy:ci:server": "lerna exec npm run deploy:ci --scope=@parkinglot/server"
+  }
+}
