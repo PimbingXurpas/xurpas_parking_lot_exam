@@ -8,8 +8,6 @@ import { ParkingAvailability } from 'src/enum/parking-availability.enum';
 import { ParkingVehicleSize } from 'src/enum/parking-size.enum';
 import { In, Repository } from 'typeorm';
 import { NearestEntrance } from '../nearest_entrance/entities/nearest_entrance.entity';
-import { TicketDto } from '../parking/dto/ticket-dto';
-import { UpdateParkingDto } from '../parking/dto/update-parking.dto';
 import { ParkingSlot } from '../parking_slot/entities/parking_slot.entity';
 import { CreateTicketDto } from './dto/create-ticket.dto';
 import { UpdateTicketDto } from './dto/update-ticket.dto';
